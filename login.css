@@ -1,0 +1,73 @@
+.header{
+    background-image:linear-gradient(rgba(4,9,30,0.5),
+    rgba(4,9,30,0.7)),url(/images/Untitled\ design\ \(2\).png);
+    min-height: 120vh;
+}
+.body-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.container {
+    background:transparent;
+    padding: 20px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    text-align: center;
+    border: 1px solid #ccc;
+    backdrop-filter: blur(10px);
+}
+.container h2 {
+    margin-bottom: 20px;
+    color:#ffde3b;
+}
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+.input-group label {
+    display: block;
+    font-weight: bold;
+    color:#ffde3b;
+}
+.input-group input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background: transparent;
+    color: White ;
+    font-size:15px;
+  
+}
+.input-group input:focus {
+    outline: none;
+    border-color:#ffde3b;
+    box-shadow: 0 0 5px #ffde3b;
+    background: transparent;
+  }
+  
+.btn {
+    width: 100%;
+    padding: 10px;
+    background: #ffde3b;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+.btn:hover {
+    background:#eec705;
+}
+.error-message {
+    color: red;
+    margin-top: 10px;
+}
+.toggle-link-login,.toggle-link-signup {
+    margin-top: 15px;
+    color: #ffde3b;
+    cursor: pointer;
+}
